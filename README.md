@@ -17,7 +17,7 @@
 6. **Libraries**
 
 
-### 1. Sketch
+### Sketch
 Structure of the program
 ```c
 void setup(){
