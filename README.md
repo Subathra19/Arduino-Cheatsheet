@@ -46,4 +46,55 @@ switch(var){
  <statement>
 }
 ```
+### 3. operators
+* Arithmetic
+```c
+= //assignment
++ //add
+- //subtract
+* //multiply 
+/ //divide
+% //modulo
+```
+* Comparison
+```c
+== //equal to
+!= //not equal to
+<  //less than 
+>  //greater than
+<= //less than or equal to
+>= //greater than or equal to
+```
+* Boolean
+```c
+&& // and
+|| // or
+!  // not
+```
+* Bitwise
+```c
+&   //bitwise and 
+|   //bitwise or
+^   //bitwise xor 
+~   //bitwise not
+<<  //shift left 
+>>  //shift right
+```
+* Compound 
+```c
+++ //increment
+-- //decrement
++= //compound addition
+-= //compound subtraction
+*= //compound multiplication
+/= //compound division
+&= //compound bitwise and
+|= //compound bitwise or
+```
+* Pointer access
+```c
+& //reference: get a pointer
+* //dereference: follow a pointer
+```
+
 
