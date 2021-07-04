@@ -129,12 +129,19 @@ float         // -3.4028e+38 to 3.4028e+38
 double        // -3.4028e+38 to 3.4028e+38
 void          // no return value
 ```
+### Array
+```c
+int a[]={10,20,30};
+int a[5]={1,2,3,4,5};
+int a[5];
+```
+
 ### Strings
 ```c
-char a[6] = {'H','e','l','l','o','\0'}
-char a[6] = {'H','e','l','l','o'}
-char a[6] = {"Hello"}
-char a[] = {"Hello"}
+char a[6] = {'H','e','l','l','o','\0'};
+char a[6] = {'H','e','l','l','o'};
+char a[6] = {"Hello"};
+char a[] = {"Hello"};
 ```
 ### Qualifiers
 ```c
