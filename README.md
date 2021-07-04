@@ -97,4 +97,26 @@ switch(var){
 * //dereference: follow a pointer
 ```
 
+### Data type
+```c
+true | false //boolean 
+-128 - 127, 'a' '$' //char
+0 - 255 //unsigned char (range) 
+0 - 255 //byte (range)
+-32768 to 32767 //int (range)
+0 - 65535 //unsigned int (range)
+0 - 65535 //word
+-2147483648 - 2147483647 //long
+0 - 4294967295 // unsigned long 
+-3.4028e+38 - 3.4028e+38 // float and double 
 
+int //-32768 - 32767
+unsigned int //0 - 65535
+word 0 - 65535
+long -2147483648 - 2147483647
+unsigned long 0 - 4294967295
+float -3.4028e+38 - 3.4028e+38
+double currently same as float
+
+void // no return value
+```
