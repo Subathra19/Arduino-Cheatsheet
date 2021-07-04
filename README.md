@@ -101,7 +101,7 @@ sizeof() //unary operator used to compute the size of its operand (i.e) returns 
 ```
 ### Data types
 ```c
-boolean       // true or false
+bool       // true or false
 char          // -128 to 127, 's','@'
 unsigned char // 0 to 255
 byte          // 0 to 255
