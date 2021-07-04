@@ -1,6 +1,12 @@
 # Arduino-Cheatsheet
 * It includes the basic syntax and built in functions for Arduino programmers
+<!-- MarkdownTOC -->
 
+1. [Sketch](#sketch)
+1. [Sublime Text Settings:](#sublime-text-settings)
+1. [Packages to install](#packages-to-install)
+
+<!-- /MarkdownTOC -->
 ## Contents
 1. **Sketch**: 
 2. **Control Structures**
