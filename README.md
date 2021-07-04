@@ -171,7 +171,7 @@ volatile // in RAM (nice for ISR)--> to tell the compiler, that the value may ch
 const    //read-only
 PROGMEM  //in flash memory
 ```
-### Built-in Functins
+### Built-in Functions
 * Digital I/O
 ```c
 //Digital I/O pins: 0-13 
