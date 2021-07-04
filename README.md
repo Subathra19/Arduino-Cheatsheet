@@ -166,3 +166,67 @@ int analogRead(pin)
 analogWrite(pin, value) // PWM Out pins: 3 5 6 9 10 11
 analogReference([DEFAULT, INTERNAL, EXTERNAL])
 ```
+* Advanced I/O
+```c
+tone(pin, freq_Hz)
+tone(pin, freq_Hz, duration_ms)
+noTone(pin)
+shiftOut(dataPin, clockPin,[MSBFIRST, LSBFIRST], value)
+unsigned long pulseIn(pin,[HIGH, LOW])
+```
+* Time
+```c
+unsigned long millis() // Overflows at 50 days
+unsigned long micros() // Overflows at 70 minutes
+delay(msec) 
+delayMicroseconds(usec)
+```
+* Math
+```c
+min(x, y)
+max(x, y) 
+abs(x)
+
+sqrt(x) 
+pow(base, exponent)
+
+constrain(x, minval, maxval)
+map(val, fromL, fromH, toL, toH)
+
+// Trignometric functions
+sin(rad) 
+cos(rad) 
+tan(rad)
+```
+* Random number
+```c
+randomSeed(seed) // long or int
+long random(max) // 0 to max-1
+long random(min, max)
+```
+* Bits and Bytes
+```c
+lowByte(x) 
+highByte(x)
+bitRead(x, bitn)
+bitWrite(x, bitn, bit)
+bitSet(x, bitn)
+bitClear(x, bitn)
+bit(bitn) // bitn: 0=LSB 7=MSB
+```
+* Type conversions
+```c
+char(<value>) 
+byte(<value>)
+int(<value>)
+word(<value>)
+long(<value>) 
+float(<value>)
+```
+* External Interrupts
+```c
+attachInterrupt(interrupt, function,[LOW, CHANGE, RISING, FALLING])
+detachInterrupt(interrupt)
+interrupts()
+noInterrupts()
+```
