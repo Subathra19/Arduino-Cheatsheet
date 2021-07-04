@@ -230,3 +230,62 @@ detachInterrupt(interrupt)
 interrupts()
 noInterrupts()
 ```
+### Libraries
+* Serial. 
+```c
+//communication with PC or via RX/TX
+begin([300, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200]) 
+end()
+int available() // #bytes available
+int read() // -1 if none available
+int peek() // Read w/o removing
+flush()
+print(data)
+println(data)
+write(byte)
+write(char * string)
+write(byte * data, size)
+SerialEvent() // Called if data is ready
+```
+* EEPROM.h 
+```c 
+// Access non-volatile memory
+byte read(addr)
+write(addr, byte)
+EEPROM[index] // Access as array
+```
+* Servo.h
+```c
+// Control servo motors
+attach(pin, [min_uS, max_uS])
+write(angle)          // 0 to 180
+writeMicroseconds(uS) // 1000-2000; 1500 is midpoint
+int read()            // 0 to 180
+bool attached()
+detach()
+```
+* SoftwareSerial.h
+```c
+//Communication on any pin
+SoftwareSerial(rxPin, txPin)
+begin(long speed) // Up to 115200
+listen()          // Only 1 can listen
+isListening()     // at a time.
+read, peek, print, println, write // Equivalent to Serial library
+```
+* Wire.h
+```c
+//I²C communication
+begin()     // Join a master
+begin(addr) // Join a slave @ addr
+requestFrom(address, count)
+beginTransmission(addr) // Step 1
+send(byte)              // Step 2
+send(char * string)
+send(byte * data, size)
+endTransmission()       // Step 3
+int available()         // Number of bytes available
+byte receive()          // Return next byte
+onReceive(handler)
+onRequest(handler)
+```
