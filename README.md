@@ -99,6 +99,21 @@ switch(var){
 ```c
 sizeof() //unary operator used to compute the size of its operand (i.e) returns the amount of memory allocated
 ```
+### Numeric Constants
+```c
+HIGH | LOW
+INPUT | OUTPUT
+156        // decimal
+0b00110011 // binary
+0267       // octal
+0xC8       // hexadecimal
+10U       // force unsigned
+10L       // force long
+10UL      // force unsigned long
+10.0      // force floating point
+10.2e6     // 10.2*10^6 = 1230000
+```
+
 ### Data types
 ```c
 bool       // true or false
@@ -115,3 +130,5 @@ double        // -3.4028e+38 to 3.4028e+38
 void          // no return value
 
 ```
+
+
