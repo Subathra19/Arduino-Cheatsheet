@@ -1,5 +1,18 @@
 # Arduino-Cheatsheet
 * It includes the basic syntax and built in functions for Arduino programmers
+
+## Contents
+1. __[`Sketch`](#sketch)__ 
+2. **Control Structures**
+3. **Opeartors**
+  * __[`Basic Operators`](#basic-operators)__
+  * __[`Basic Operations`](#basic-operations)__
+3. **Conditionals and Loops**
+  * __[`Conditionals`](#conditionals)__
+  * __[`Loops`](#loops)__   
+4. **Functions**
+
+
 ### 1. Sketch
 * Structure of the program
 ```c
