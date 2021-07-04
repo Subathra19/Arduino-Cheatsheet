@@ -150,3 +150,19 @@ volatile // in RAM (nice for ISR)--> to tell the compiler, that the value may ch
 const    //read-only
 PROGMEM  //in flash memory
 ```
+### Built-in Functins
+* Digital I/O
+```c
+//Digital I/O pins: 0-13 
+ pinMode(pin,[INPUT, OUTPUT, INPUT_PULLUP])
+ int digitalRead(pin)
+ digitalWrite(pin, [HIGH, LOW])
+```
+* Analog I/O
+* ```c
+//Analog I/O pins: A0-A5
+pinMode(pin,[INPUT, OUTPUT, INPUT_PULLUP])
+int analogRead(pin)
+analogWrite(pin, value) // PWM Out pins: 3 5 6 9 10 11
+analogReference([DEFAULT, INTERNAL, EXTERNAL])
+```
