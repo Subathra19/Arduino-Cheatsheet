@@ -107,16 +107,16 @@ INPUT | OUTPUT
 0b00110011 // binary
 0267       // octal
 0xC8       // hexadecimal
-10U       // force unsigned
-10L       // force long
-10UL      // force unsigned long
-10.0      // force floating point
+10U        // force unsigned
+10L        // force long
+10UL       // force unsigned long
+10.0       // force floating point
 10.2e6     // 10.2*10^6 = 1230000
 ```
 
 ### Data types
 ```c
-bool       // true or false
+bool          // true or false
 char          // -128 to 127, 's','@'
 unsigned char // 0 to 255
 byte          // 0 to 255
@@ -128,7 +128,18 @@ unsigned long // 0 to 4294967295
 float         // -3.4028e+38 to 3.4028e+38
 double        // -3.4028e+38 to 3.4028e+38
 void          // no return value
-
 ```
-
-
+### Strings
+```c
+char a[6] = {'H','e','l','l','o','\0'}
+char a[6] = {'H','e','l','l','o'}
+char a[6] = {"Hello"}
+char a[] = {"Hello"}
+```
+### Qualifiers
+```c
+static   // preserves the value even when they are out of their scope
+volatile // in RAM (nice for ISR)--> to tell the compiler, that the value may change at any time.
+const    //read-only
+PROGMEM  //in flash memory
+```
