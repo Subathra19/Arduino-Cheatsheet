@@ -10,15 +10,6 @@
 6. [Libraries](#libraries)
 
 <!-- /MarkdownTOC -->
-## Contents
-1. **Sketch**: 
-2. **Control Structures**
-3. **Opeartors**
-3. **Conditionals and Loops**
-4. **Variables, Arrays, and Data**
-5. **Built-in Functions**
-6. **Libraries**
-
 
 ### Sketch
 Structure of the program
