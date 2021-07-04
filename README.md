@@ -12,7 +12,7 @@
 <!-- /MarkdownTOC -->
 
 ### Sketch
-Structure of the program
+* Structure of the program
 ```c
 void setup(){
 	//Runs only once and initiates the variables
