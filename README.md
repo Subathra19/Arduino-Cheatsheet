@@ -6,7 +6,7 @@
 2. **Control Structures**
 3. **Opeartors**
 3. **Conditionals and Loops**
-4. 
+4. **Variables, Arrays, and Data**
 5. **Built-in Functions**
 6. **Libraries**
 
@@ -110,7 +110,8 @@ switch(var){
 ```c
 sizeof() //unary operator used to compute the size of its operand (i.e) returns the amount of memory allocated
 ```
-### 4. Numeric Constants
+### 4. Variables, Arrays, and Data Types
+* Numeric Constant
 ```c
 HIGH | LOW
 INPUT | OUTPUT
@@ -125,7 +126,7 @@ INPUT | OUTPUT
 10.2e6     // 10.2*10^6 = 1230000
 ```
 
-### Data types
+* Data types
 ```c
 bool          // true or false
 char          // -128 to 127, 's','@'
@@ -140,21 +141,21 @@ float         // -3.4028e+38 to 3.4028e+38
 double        // -3.4028e+38 to 3.4028e+38
 void          // no return value
 ```
-### Array
+* Array
 ```c
 int a[]={10,20,30};
 int a[5]={1,2,3,4,5};
 int a[5];
 ```
 
-### Strings
+* Strings
 ```c
 char a[6] = {'H','e','l','l','o','\0'};
 char a[6] = {'H','e','l','l','o'};
 char a[6] = {"Hello"};
 char a[] = {"Hello"};
 ```
-### Qualifiers
+* Qualifiers
 ```c
 static   // preserves the value even when they are out of their scope
 volatile // in RAM (nice for ISR)--> to tell the compiler, that the value may change at any time.
