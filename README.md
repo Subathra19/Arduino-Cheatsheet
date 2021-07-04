@@ -159,7 +159,7 @@ PROGMEM  //in flash memory
  digitalWrite(pin, [HIGH, LOW])
 ```
 * Analog I/O
-* ```c
+```c
 //Analog I/O pins: A0-A5
 pinMode(pin,[INPUT, OUTPUT, INPUT_PULLUP])
 int analogRead(pin)
