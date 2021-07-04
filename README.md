@@ -3,8 +3,11 @@
 <!-- MarkdownTOC -->
 
 1. [Sketch](#sketch)
-1. [Sublime Text Settings:](#sublime-text-settings)
-1. [Packages to install](#packages-to-install)
+2. [Control-Structures](#control-structures)
+3. [Operators](#operators)
+4. [Variables-Arrays-and-Data-Types](#variables-arrays-and-data-types)
+5. [Built-in-Functions](#built-in-functions)
+6. [Libraries](#libraries)
 
 <!-- /MarkdownTOC -->
 ## Contents
@@ -35,7 +38,7 @@ int sum(int x,int y) {return x+y;} //example
 return x; // x must match return type
 return; // For void return type
 ```
-### 2. Control Structures
+### Control-Structures
 ```c
 //Conditional statement
 if<condition>{ <statement> }else{ <statement> }
@@ -63,7 +66,7 @@ switch(var){
  <statement>
 }
 ```
-### 3. Operators
+### Operators
 * Arithmetic
 ```c
 = //assignment
@@ -116,7 +119,7 @@ switch(var){
 ```c
 sizeof() //unary operator used to compute the size of its operand (i.e) returns the amount of memory allocated
 ```
-### 4. Variables, Arrays, and Data Types
+### Variables, Arrays, and Data Types
 * Numeric Constant
 ```c
 HIGH | LOW
@@ -168,7 +171,7 @@ volatile // in RAM (nice for ISR)--> to tell the compiler, that the value may ch
 const    //read-only
 PROGMEM  //in flash memory
 ```
-### 5. Built-in Functins
+### Built-in Functins
 * Digital I/O
 ```c
 //Digital I/O pins: 0-13 
@@ -248,7 +251,7 @@ detachInterrupt(interrupt)
 interrupts()
 noInterrupts()
 ```
-### 6. Libraries
+### Libraries
 * Serial. 
 ```c
 //communication with PC or via RX/TX
