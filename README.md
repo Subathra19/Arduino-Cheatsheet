@@ -11,7 +11,7 @@ Void loop{
 }
 ```
 * Functions
-```c
-<return type> <name>(<params>) { ... }
-int sum(int x,int y) {return x+y;}
-```
+
+* Syntax: ```c <return type> <name>(<params>) { ... } ```
+* Ex: ```c int sum(int x,int y) {return x+y;} ```
+
