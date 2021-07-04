@@ -2,19 +2,17 @@
 * It includes the basic syntax and built in functions for Arduino programmers
 
 ## Contents
-1. __[`Sketch`](#sketch)__ 
+1. **Sketch**: 
 2. **Control Structures**
 3. **Opeartors**
-  * __[`Basic Operators`](#basic-operators)__
-  * __[`Basic Operations`](#basic-operations)__
 3. **Conditionals and Loops**
-  * __[`Conditionals`](#conditionals)__
-  * __[`Loops`](#loops)__   
-4. **Functions**
+4. 
+5. **Built-in Functions**
+6. **Libraries**
 
 
-Sketch
-* Structure of the program
+### 1. Sketch
+Structure of the program
 ```c
 void setup(){
 	//Runs only once and initiates the variables
@@ -59,7 +57,7 @@ switch(var){
  <statement>
 }
 ```
-### 3. operators
+### 3. Operators
 * Arithmetic
 ```c
 = //assignment
@@ -112,7 +110,7 @@ switch(var){
 ```c
 sizeof() //unary operator used to compute the size of its operand (i.e) returns the amount of memory allocated
 ```
-### Numeric Constants
+### 4. Numeric Constants
 ```c
 HIGH | LOW
 INPUT | OUTPUT
@@ -163,7 +161,7 @@ volatile // in RAM (nice for ISR)--> to tell the compiler, that the value may ch
 const    //read-only
 PROGMEM  //in flash memory
 ```
-### Built-in Functins
+### 5. Built-in Functins
 * Digital I/O
 ```c
 //Digital I/O pins: 0-13 
@@ -243,7 +241,7 @@ detachInterrupt(interrupt)
 interrupts()
 noInterrupts()
 ```
-### Libraries
+### 6. Libraries
 * Serial. 
 ```c
 //communication with PC or via RX/TX
