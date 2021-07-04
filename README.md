@@ -22,15 +22,19 @@ return; // For void return type
 ```c
 //Conditional statement
 if<condition>{ <statement> }else{ <statement> }
+
 //Loops
 while (<condiiton) { <statement> }
+
 do{ <statement> }(<condiiton)// condition is tested at the end of loop 
 for (initialization expression; condition for expression; update expression){    
 	// body of the loop
 }
+
 //Loop control statement
 break; // Exit a loop immediately
 continue; // Go to next iteration
+
 switch(var){
  case 1:
  <statement>
