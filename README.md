@@ -96,27 +96,22 @@ switch(var){
 & //reference: get a pointer
 * //dereference: follow a pointer
 ```
-
-### Data type
 ```c
-true | false //boolean 
--128 - 127, 'a' '$' //char
-0 - 255 //unsigned char (range) 
-0 - 255 //byte (range)
--32768 to 32767 //int (range)
-0 - 65535 //unsigned int (range)
-0 - 65535 //word
--2147483648 - 2147483647 //long
-0 - 4294967295 // unsigned long 
--3.4028e+38 - 3.4028e+38 // float and double 
+sizeof() //unary operator used to compute the size of its operand (i.e) returns the amount of memory allocated
+```
+### Data types
+```c
+boolean       // true or false
+char          // -128 to 127, 's','@'
+unsigned char // 0 to 255
+byte          // 0 to 255
+int           // -32768 to 32767
+unsigned int  // 0 to 65535
+word          // 0 to 65535
+long          // -2147483648 to 2147483647
+unsigned long // 0 to 4294967295
+float         // -3.4028e+38 to 3.4028e+38
+double        // -3.4028e+38 to 3.4028e+38
+void          // no return value
 
-int //-32768 - 32767
-unsigned int //0 - 65535
-word 0 - 65535
-long -2147483648 - 2147483647
-unsigned long 0 - 4294967295
-float -3.4028e+38 - 3.4028e+38
-double currently same as float
-
-void // no return value
 ```
